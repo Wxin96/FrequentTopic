@@ -3,7 +3,7 @@ package com.apollo.test5;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Main02 {
+public class Main03 {
     public static void main(String[] args) {
         int[] nums = new int[10];
         long idx = 0;
