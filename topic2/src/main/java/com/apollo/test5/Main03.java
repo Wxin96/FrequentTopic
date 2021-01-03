@@ -1,5 +1,7 @@
 package com.apollo.test5;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -15,6 +17,7 @@ public class Main03 {
                 System.out.println("你好");
             }
         };
-
+        Deque<Integer> deque = new ArrayDeque<>();
+        deque.peekFirst();
     }
 }
