@@ -25,6 +25,8 @@ public class Main21 {
         String result = nums.stream().sorted().map(o -> o + "").collect(Collectors.joining(" "));
 
         System.out.println(result);
+
+
     }
 
 }

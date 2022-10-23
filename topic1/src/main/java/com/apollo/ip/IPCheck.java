@@ -6,7 +6,7 @@ public class IPCheck {
         IPCheck solution = new IPCheck();
         System.out.println(solution.solve("10.0.0.1"));;
     }
-
+    
     public String solve(String IP) {
         if (IP == null || IP.length() == 0) return "Neither";
         if (isIPv4(IP)) return "IPv4";
